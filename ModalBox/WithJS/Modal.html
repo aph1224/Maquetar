@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Modal Box</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="../../index.css" />
+        <link type="text/css" rel="stylesheet" href="Modal.css" />
+
+        <script type="text/javascript" src="Modal.js"></script>
+    </head>
+    <body>
+
+
+
+        <div class="header">
+            Ejemplo de MODAL BOX con JS
+
+            <a href="../ModalBoxIndex.html" class="backButton">Regresar</a>
+        </div>
+
+        <div class="container">
+            <p>Botón que permite abrir una ventana modal, la cual puede tener diverso contenido.</p>
+            <button class="buttonStyle" onclick="openModal();">Ayuda</button>
+        </div>
+        
+        <div class="cover" id="cover">
+            <div class="modalBox" id="modalBox">
+                <button class="buttonStyle" id="closeModal" onclick="closeModal();"> X </button>
+                <p>Este es el texto de la ventana modal que se mostrará cada que abras dicha ventana. De igual forma, este contenido se oculta al dar clic en "Cerrar".</p>
+            </div>
+            
+        </div>
+
+
+
+    </body>
+</html>

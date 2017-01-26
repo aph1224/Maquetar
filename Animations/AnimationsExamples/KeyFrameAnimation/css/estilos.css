@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contenedor{
+    position:relative;
+    top: 90px;
+    width:1000px; height:650px;
+    border:10px solid #C30;
+    margin:0 auto;
+    background:url(../imagenes/fondo1.jpg) no-repeat;
+    overflow:hidden;
+}
+#libro{
+    width:301px;
+    height:517px;
+    background:url(../imagenes/libro.png) no-repeat;
+    position:absolute;
+    top:55px;
+    left:102px;
+}
+#origamiblanco{
+    width:216px;
+    height:193px;
+    background:url(../imagenes/origami-blanco.png) no-repeat;
+    position:absolute;
+    top:135px;
+    left:388px;
+
+    animation: animacionOrigamiBlanco 5s infinite;
+    -moz-animation: animacionOrigamiBlanco 5s infinite;
+    -webkit-animation: animacionOrigamiBlanco 5s infinite;
+}
+#origamiazul{
+    width:164px;
+    height:154px;
+    background:url(../imagenes/origami-azul.png) no-repeat;
+    position:absolute;
+    top:307px;
+    left:401px;
+
+    animation: animacionOrigamiAzul 10s infinite;
+    -moz-animation: animacionOrigamiAzul 10s infinite;
+    -webkit-animation: animacionOrigamiAzul 10s infinite;
+}
+#origamifucsia{
+    width:144px;
+    height:128px;
+    background:url(../imagenes/origami-fuscia.png) no-repeat;
+    position:absolute;
+    top:25px;
+    left:824px;
+
+    animation: animacionOrigamiFucsia 20s infinite;
+    -moz-animation: animacionOrigamiFucsia 20s infinite;
+    -webkit-animation: animacionOrigamiFucsia 20s infinite;
+
+}
+
+
+/* *** ANIMACIONES *** */
+
+/* Origami Blanco */
+@keyframes animacionOrigamiBlanco {
+    from{left: 159px; top: 135px;}
+    to{left: 1010px; top: -139px;}
+}
+
+@-webkit-keyframes animacionOrigamiBlanco {
+    from{left: 159px; top: 135px;}
+    to{left: 1010px; top: -139px;}
+}
+
+@-moz-keyframes animacionOrigamiBlanco {
+    from{left: 159px; top: 135px;}
+    to{left: 1010px; top: -139px;}
+}
+
+/* Origami Azul */
+@keyframes animacionOrigamiAzul {
+    from{left: 167px; top: 307px;}
+    to{left: 1010px; top: 130px;}
+}
+
+@-webkit-keyframes animacionOrigamiAzul {
+    from{left: 167px; top: 307px;}
+    to{left: 1010px; top: 130px;}
+}
+
+@-moz-keyframes animacionOrigamiAzul {
+    from{left: 167px; top: 307px;}
+    to{left: 1010px; top: 130px;}
+}
+
+/* Origami Fucsia */
+@keyframes animacionOrigamiFucsia {
+    0%{left: -153px; top: 660px;}
+    50%{left: 856px; top: 315px;}
+    75%{left: 377px; top: 95px;}
+    100%{left: 1010px; top: -128px;}
+}

@@ -1,0 +1,55 @@
+/* 
+    Created on : 3/03/2016, 06:13:54 PM
+    Author     : Apache
+*/
+
+
+
+/* Fondo negro */
+.modal{
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.9);
+    pointer-events: none;
+    z-index: 10;
+    
+    transition: all 0.5s;
+}
+
+/* Contenedor de lo que se mostrará en la ventana modal */
+.modal-contenido{
+    position: absolute;
+    top: 80px; left: 50%;
+    width: 300px; height: auto;
+    margin-left: -150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFF;
+    
+    color: #003333;
+    text-align: center;
+}
+
+/* Estilos para la "X" que cierra la ventana modal" */
+.modal-contenido a {
+    position: absolute;
+    top: 10px; right: 10px;
+    
+    color: #003333;
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Selector target para ocultar la ventana modal cambiando algunos atributos */
+#miModal:target{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+
+/* Enlace que abre la ventana modal */
+.container a {
+    padding: 5px;
+}

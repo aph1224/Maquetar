@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sidebar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link type="text/css" rel="stylesheet" href="../index.css" />
+        <link type="text/css" rel="stylesheet" href="Sidebar.css" />
+
+        <script type="text/javascript" src="Sidebar.js"></script>
+    </head>
+    <body>
+
+
+
+        <div class="header">
+            Ejemplo de un SIDEBAR
+
+            <a href="../index.html" class="backButton">Regresar</a>
+
+            <!-- Botón para abrir el sidebar menu -->
+            <div class="sidebarButton" onclick="openNav()">
+                <div class="linesFromSidebar"></div>
+                <div class="linesFromSidebar" style="top: 12px;"></div>
+                <div class="linesFromSidebar" style="top: 25px;"></div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            Da clic en el botón de la cabecera
+            <br/>
+            <br/>
+            Es como este ---> <img class="sidebarContainerIco" src="sidebarButton.png" alt="Sidebar" />
+        </div>
+
+
+
+        <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+        <!-- ::::::::::::::::::::::::: SIDEBAR MENU :::::::::::::::::::::::: -->
+        <!-- :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::  -->
+        <div id="mySidenav" class="sidebarnav">
+            <div id="sidebarMenu" class="sidebarMenu">
+                <div class="closeSidebar" onclick="closeNav()">
+                    <div class="componentCloseSidebar1"></div>
+                    <div class="componentCloseSidebar2"></div>
+                </div>
+                <div class="containerSidebarLinks">
+                    <button class="sidebarLinks" >Opción 1</button>
+                    <button class="sidebarLinks" >Opción 2</button>
+                    <button class="sidebarLinks" >Opción 3</button>
+                    <button class="sidebarLinks" >Opción 4</button>
+                    <button class="sidebarLinks" >Opción 5</button>
+                    <button class="sidebarLinks" >Opción 6</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </body>
+</html>

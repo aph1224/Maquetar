@@ -1,0 +1,98 @@
+/* 
+    Created on : 14/12/2016, 12:54:08 PM
+    Author     : Aph
+*/
+
+
+
+/* Imagen de ejemplo para el ícono de la cabecera */
+.sidebarContainerIco {
+    position: relative;
+    top: 20px;
+}
+
+
+
+/* ************************************************************************** */
+/* ::::::::::::::::::::::::::::::::: SIDEBAR :::::::::::::::::::::::::::::::: */
+/* ************************************************************************** */
+.sidebarButton {
+    position: absolute;
+    top: 25px; left: 20px;
+    width: 30px; height: 30px;
+    cursor: pointer;
+
+    z-index: 1;
+}
+.linesFromSidebar {
+    position: absolute;
+    width: 30px; height: 5px;
+    background-color: #FFF;
+    border-radius: 3px;
+}
+.sidebarnav {
+    position: fixed;
+    top: 0px; left: 0px;
+    width: 0px; height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 10;
+}
+.sidebarMenu {
+    position: absolute;
+    top: 0px; left: 0px;
+    width: 0px; height: 100%;
+    background-color: #003333;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+.closeSidebar {
+    position: absolute;
+    top: 25px; left: 20px;
+    width: 30px; height: 30px;
+    cursor: pointer;
+
+    transition: all 0.3s;
+}
+.closeSidebar:hover {
+    transform: rotate(90deg);
+}
+.componentCloseSidebar1 {
+    position: relative;
+    top: 12px; left: -5px;
+    width: 40px; height: 5px;
+    background-color: #FFF;
+    border-radius: 3px;
+    transform: rotate(45deg);
+}
+.componentCloseSidebar2 {
+    position: relative;
+    top: 8px; left: -5px;
+    width: 40px; height: 5px;
+    background-color: #FFF;
+    border-radius: 3px;
+    transform: rotate(135deg);
+}
+.containerSidebarLinks {
+    position: absolute;
+    display: block;
+    top: 100px; left: 0px;
+}
+.sidebarLinks {
+    position: relative;
+    width: 350px; height: 50px;
+    background: transparent;
+    padding-left: 20px;
+    border: 0px;
+    cursor: pointer;
+
+    color: #FFF;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: left;
+
+    transition: background-color 0.3s, color 0.3s;
+}
+.sidebarLinks:hover {
+    background-color: #FFF;
+    color: #003333;
+}

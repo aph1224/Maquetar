@@ -1,0 +1,38 @@
+
+
+
+.container {
+    height: 400px;
+    background-color: #660000;
+}
+
+#texto1 {
+    position: absolute;
+    color: #FFF;
+
+    animation: animacionTexto1 8s infinite;
+    -moz-animation: animacionTexto1 8s infinite;
+    -webkit-animation: animacionTexto1 8s infinite;
+}
+
+#texto2 {
+    position: absolute;
+    color: #FFF;
+
+    animation: animacionTexto2 3s infinite;
+    -moz-animation: animacionTexto2 3s infinite;
+    -webkit-animation: animacionTexto2 3s infinite;
+}
+
+
+/* ANIMACIONES */
+@keyframes animacionTexto1 {
+    0%{left: 5px; top: 5px}
+    50%{left: 90%; top: 94%;}
+    100%{left: 5px; top: 5px};
+}
+
+@keyframes animacionTexto2 {
+    from{left: 90%; top: 5px}
+    to{left: 5px; top: 94%;}
+}

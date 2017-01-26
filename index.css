@@ -1,0 +1,99 @@
+/* 
+    Created on : 16-ene-2017, 10:17:57
+    Author     : Aph
+*/
+
+
+
+body {
+    background-color: #003333;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Establecer que los enlaces no tengan el subrayado */
+a {
+    text-decoration: none;
+}
+
+
+/* Cabecera */
+.header {
+    position: fixed;
+    top: 0px; left: 0px;
+    width: 100%; height: 80px;
+    background-color: #333;
+    z-index: 1;
+
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+    line-height: 80px;
+}
+/* Botón para regresar al index */
+.backButton {
+    position: absolute;
+    top: 0px; right: 0px;
+    background-color: transparent;
+    padding: 0px 10px;
+
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+.backButton:hover {
+    background-color: #FFF;
+    color: #003333;
+}
+
+
+/* DIV del contenido principal */
+.container {
+    position: absolute;
+    top: 160px; left: 50%;
+    width: 90%; height: auto;
+    margin-left: -45%;
+    overflow-x: no-display;
+
+    color: #FFF;
+    text-align: center;
+}
+
+
+/* Estilos generales de los botones */
+.buttonStyle {
+    width: auto; height: 30px;
+    border: 0px;
+    border-radius: 3px;
+    background-color: #FFF;
+    cursor: pointer;
+
+    color: #333;
+    font-size: 18px;
+}
+.buttonStyle:focus {
+    outline: none;
+}
+
+
+/* Cada uno de los Snipers */
+.sniper {
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    width: 200px; height: auto;
+    margin: 5px 5px;
+    padding: 0px 5px;
+    border-radius: 3px;
+    background-color: #333;
+
+    color: #FFF;
+    text-align: center;
+}
+/* Título del Sniper */
+.sniperTitle {
+    font-size: 24px;
+}
+/* Descripción del Sniper */
+.sniperDescrip {
+    font-size: 12px;
+}
