@@ -1,0 +1,53 @@
+/* 
+    Created on : 16-ene-2017, 11:27:53
+    Author     : Aph
+*/
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* ESTILOS PARA LOS FONDOS */
+.generalBckgnd {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* IMÁGENES Y SU RESPECTIVA ALTURA */
+.bckgnd1 {
+    background-image: url("img/3.jpg");
+    height: 100%;
+}
+
+.bckgnd2 {
+    background-image: url("img/2.jpg");
+    height: 400px;
+}
+.bckgnd3 {
+    background-image: url("img/1.jpg");
+    height: 600px;
+}
+
+/* EL TEXTO QUE ESTÁ CON LAS IMÁGENES */
+.ImgText {
+    position: absolute;
+    top: 50%; left: 0;
+    width: 100%;
+
+    text-align: center;
+    color: #FFF;
+}
+
+/* EL TEXTO QUE ESTÁ DEBAJO DE LAS IMÁGENES */
+.onlyText {
+    padding:50px 80px;
+    background-color: #003333;
+
+    text-align: justify;
+    color: #FFF;
+}
